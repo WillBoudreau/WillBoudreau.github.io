@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <style>
+      .navbutton {
+        margin-right: 10px;
+        width: 120px;
+        height: 40px;
+        font-size: 16px;
+        background-color: #00ccff;
+      }
+    </style>
+    <style>
+      .pagebutton {
+        margin-top: 10px;
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+        color: #000000;
+        background-color: #00ccff;
+      }
+    </style>
+    <title>Contact Me</title>
+  </head>
+  <body style="background-color: #8aa3dc; color: #000000">
+    <button class="navbutton" onclick="location.href='PrototypeHTML.html'">
+      Projects
+    </button>
+    <button class="navbutton" onclick="location.href='PrototypeHTML.html'">
+      About Me
+    </button>
+    <button
+      class="navbutton"
+      onclick="window.open('file:///C:/Users/willi/Downloads/William%20Olivier%20Boudreau%20Resume.pdf', '_blank')"
+    >
+      Resume
+    </button>
+    <button class="navbutton" onclick="location.href='ContactHTML.html'">
+      Contact
+    </button>
+    <h1>Contact Me</h1>
+    <form
+      action="mailto:williamboudreau140@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label for="subject">Subject:</label><br />
+      <input type="text" id="subject" /><br />
+      <label for="message">Message:</label><br />
+      <textarea id="message"></textarea><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
